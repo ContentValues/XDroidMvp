@@ -54,6 +54,7 @@ public abstract class BasePagerFragment extends XLazyFragment<PBasePager> {
 
         if (errorView == null) {
             errorView = new StateView(context);
+            
         }
         contentLayout.errorView(errorView);
         contentLayout.loadingView(View.inflate(getContext(), R.layout.view_loading, null));
